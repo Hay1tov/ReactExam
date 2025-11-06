@@ -1,7 +1,9 @@
+'use client'
 import React, { useEffect, useState } from "react";
 import { useParams, NavLink } from "react-router-dom";
 import axios from "axios";
 import { BiArrowBack } from "react-icons/bi";
+
 
 const ProductCart = () => {
 	const { id } = useParams();
@@ -33,7 +35,7 @@ const ProductCart = () => {
 			<div className="">
 				<NavLink
 					to="/products"
-					className="text-2xl text-black font-semibold py-0.5 rounded flex items-center gap-2"
+					className="max-w-max text-2xl text-black font-semibold py-0.5 rounded flex items-center gap-2"
 				>
 					<BiArrowBack color="black"/> Back
 				</NavLink>
