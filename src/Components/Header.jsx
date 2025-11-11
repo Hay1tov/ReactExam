@@ -23,12 +23,14 @@ const Header = () => {
         {/* O‘ng tomon ikonlar */}
         <div className='flex gap-5 items-center'>
           {/* 🛒 Shopping cart */}
-          <Link to='/shopping'>
+          <NavLink to='/shopping'>
             <TiShoppingCart className='text-white text-[22px] cursor-pointer hover:text-gray-200 transition' />
-          </Link>
+          </NavLink>
 
-          {/* 👤 Profil */}
-          <CgProfile className='text-white text-[20px] cursor-pointer hover:text-gray-200 transition'/>
+            {/* 👤 Profil */}
+          <NavLink to='/profile'>
+            <CgProfile className='text-white text-[20px] cursor-pointer hover:text-gray-200 transition' />
+          </NavLink>
         </div>
       </nav>
     </header>

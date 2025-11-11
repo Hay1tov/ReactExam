@@ -7,6 +7,7 @@ import Users from "./Components/Users";
 import Header from "./Components/Header";
 import ToDoList from "./Components/ToDoList";
 import Shopping from "./Components/Shopping";
+import Profile from "./Components/Profile"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/profile" element={<Profile />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products/cart/:id" element={<ProductCart />} />
         <Route path="/shopping" element={<Shopping />} />
