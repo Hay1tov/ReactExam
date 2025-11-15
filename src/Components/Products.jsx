@@ -78,7 +78,7 @@ const Products = () => {
         </select>
 
         {/* Narx oralig‘i */}
-        <label className="font-medium block mb-2">Narx oralig‘i ($)</label>
+        <label className="font-medium block mb-2">Narx oralig'i ($)</label>
         <div className="flex gap-2 mb-4">
           <input
             type="number"
@@ -98,7 +98,7 @@ const Products = () => {
       </aside>
 
       {/* Productlar qismi */}
-      <section className="ml-[300px] flex-1 p-6 pt-[80px]">
+      <section className="ml-[300px] flex-1 p-6 pt-20">
         {/* Qidiruv input */}
         <div className="mb-6">
           <input
